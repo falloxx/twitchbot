@@ -34,11 +34,6 @@ client.on("message", (channel, tags, message, self) => {
     client.say(channel, `Nombre de mots: ${compteurMot}!`);
   }
 
-  //   if (message.toLowerCase().includes(`http`)) {
-  //     client.deletemessage(channel, tags.id);
-  //     return;
-  //   }
-
   compteurMessage += 1;
 
   if (message.toLowerCase() === "!message") {
